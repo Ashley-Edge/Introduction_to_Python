@@ -1,4 +1,4 @@
-# <ins>Contents :bowtie:</ins>
+# <ins>Contents</ins> :bowtie:
 ## Week 1
 - `S1_cat_food.py` script from session 1 :cat:
 - `HW1_chair_nails.py` script from question 1 of the homework :hammer:
