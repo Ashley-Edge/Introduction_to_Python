@@ -1,0 +1,5 @@
+name = input("What is your name? ")
+animal = input("What is your favorite animal? ")
+print(f"Hello, {name.capitalize()}! {animal.capitalize()}'s are your favorite animals, how cute.")
+age = input(f"How old are you {name.capitalize()}? ")
+print(f"Cool, so you will be {int(age)+1} on yor next birthday?")
