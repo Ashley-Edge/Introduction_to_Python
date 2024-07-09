@@ -15,3 +15,10 @@
 - `S2_circle` exercise in correcting a circle function :large_blue_circle:
 - `HW2_numbers.py`explaining a loop :arrows_counterclockwise:
 - `HW2_calculate_vat.py` correcting a function to work out VAT :moneybag:
+## Week 3
+- `S3_warmup.py` problem to solve while we wait for everyone to join
+- `S3_burger.py` script we worked on over a number or exercises. Helps you decide if the restaurant sells a veggie burger within your budget and if you are entitled to a discount.
+- `S3_pizza.py` working out if the pizza oven is at the correct temperature to cook a pizza.
+- `S3_coin_flip.py` Coin flip game
+- `S3_rock_paper_scissors.py` Rock, Paper, Scissors game
+- `S3_roulette.py` Roulette betting game
