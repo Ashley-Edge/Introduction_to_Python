@@ -22,3 +22,6 @@
 - `S3_coin_flip.py` Coin flip game
 - `S3_rock_paper_scissors.py` Rock, Paper, Scissors game
 - `S3_roulette.py` Roulette betting game
+- `HW3_umbrella.py` decided whether to take an umbrella
+- `HW3_boat_hire.py` Work out if you can afford to hire a boat
+- `HW3_book_shop.py` I had to much fun with this book categorising script
