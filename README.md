@@ -25,3 +25,12 @@
 - `HW3_umbrella.py` decided whether to take an umbrella
 - `HW3_boat_hire.py` Work out if you can afford to hire a boat
 - `HW3_book_shop.py` I had to much fun with this book categorising script
+## Week 4
+- `S4_starter.py` recap of if else functions
+- `S4_clothes.py` Lists in if functions, updating the list
+- `S4_game_scores.py` How to pull data from lists
+- `S4_shopping_list.py` Amending a list with an if statement and `.append`
+- `S4_lunch_money.py` Working out how much money way spent. List of costs
+- `S4_dictionary.py` Introduction to dictionaries `{}`
+- `S4_fruits.py` getting the name, colour and price of fruit
+- `S4_random_names.py` playing around with the `random.choice` import
