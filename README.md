@@ -17,14 +17,14 @@
 - `HW2_calculate_vat.py` correcting a function to work out VAT :moneybag:
 ## Week 3
 - `S3_warmup.py` problem to solve while we wait for everyone to join
-- `S3_burger.py` script we worked on over a number or exercises. Helps you decide if the restaurant sells a veggie burger within your budget and if you are entitled to a discount.
+- `S3_burger.py` script we worked on over a number of exercises. Helps you decide if the restaurant sells a veggie burger within your budget and if you are entitled to a discount.
 - `S3_pizza.py` working out if the pizza oven is at the correct temperature to cook a pizza.
 - `S3_coin_flip.py` Coin flip game
 - `S3_rock_paper_scissors.py` Rock, Paper, Scissors game
 - `S3_roulette.py` Roulette betting game
 - `HW3_umbrella.py` decided whether to take an umbrella
 - `HW3_boat_hire.py` Work out if you can afford to hire a boat
-- `HW3_book_shop.py` I had to much fun with this book categorising script
+- `HW3_book_shop.py` I had too much fun with this book categorising script
 ## Week 4
 - `S4_starter.py` recap of if else functions
 - `S4_clothes.py` Lists in if functions, updating the list
@@ -34,3 +34,6 @@
 - `S4_dictionary.py` Introduction to dictionaries `{}`
 - `S4_fruits.py` getting the name, colour and price of fruit
 - `S4_random_names.py` playing around with the `random.choice` import
+- `HW4_supermarket.py` Correcting a script issue much like `S4_shopping_list.py`
+- `HW4_chocolates.py` Till script that gives chocolate prices
+- `HW4_lottery.py` Fun lottery script. I expanded on the requirements by asking for number inout.
