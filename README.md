@@ -34,6 +34,9 @@
 - `S4_dictionary.py` Introduction to dictionaries `{}`
 - `S4_fruits.py` getting the name, colour and price of fruit
 - `S4_random_names.py` playing around with the `random.choice` import
+- `HW4_supermarket.py` Correcting a script issue much like `S4_shopping_list.py`
+- `HW4_chocolates.py` Till script that gives chocolate prices
+- `HW4_lottery.py` Fun lottery script. I expanded on the requirements by asking for number inout.
 ## Week 5: Files, PIP package manager, API's
 - `S5_starter.py` A little refresher exercise on lists and dictionaries
 - `S5_files_writing.py` A script to write to a file called `people.txt`
