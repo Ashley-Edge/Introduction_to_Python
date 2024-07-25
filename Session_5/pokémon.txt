@@ -1,0 +1,44 @@
+Pokémon ID: 22
+Name: Fearow
+Moves: razor-wind, wing-attack, whirlwind, fly, headbutt
+
+Pokémon ID: 54
+Name: Psyduck
+Moves: mega-punch, pay-day, ice-punch, scratch, mega-kick
+
+Pokémon ID: 999
+Name: Gimmighoul
+Moves: tackle, take-down, night-shade, confuse-ray, light-screen
+
+Pokémon ID: 164
+Name: Noctowl
+Moves: wing-attack, whirlwind, fly, tackle, body-slam
+
+Pokémon ID: 873
+Name: Frosmoth
+Moves: take-down, mist, ice-beam, blizzard, aurora-beam
+
+Pokémon ID: 35
+Name: Clefairy
+Moves: pound, double-slap, mega-punch, fire-punch, ice-punch
+
+Pokémon ID: 54
+Name: Psyduck
+Moves: mega-punch, pay-day, ice-punch, scratch, mega-kick
+
+Pokémon ID: 54
+Name: Psyduck
+Moves: mega-punch, pay-day, ice-punch, scratch, mega-kick
+
+Pokémon ID: 54
+Name: Psyduck
+Moves: mega-punch, pay-day, ice-punch, scratch, mega-kick
+
+Pokémon ID: 33
+Name: Nidorino
+Moves: cut, double-kick, headbutt, horn-attack, fury-attack
+
+Pokémon ID: 666
+Name: Vivillon
+Moves: gust, supersonic, psybeam, hyper-beam, solar-beam
+
