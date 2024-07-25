@@ -47,3 +47,9 @@
 - `S5_trees.py` A script that reads data about trees from `trees.csv` to find the shortest tree. (Needs work)
 - `S5_get_pokemon.py` Gets the `.json` data from a pokémon number
 - `S5_pokemon_data.py` A script that Get the height, weight and top 5 moves of a specific Pokémon and prints the output
+- `HW5_poems.py` Very similar to `S5_files_writing.py` writing `poem` data to the `poem.txt` file
+- `HW5_FINAL_pokémon_list.py` Final version of question 3
+  - I added an input feature, so the user can enter their own ID number
+  - I made an `alreday_in` def to check that no duplicates will be added to `pokêmon.txt`
+  - Lastly I added a `get_name` def, so I could reference a Pokémons name for the output message
+  - `HW5_EXPERIMINTATION.py` has all my other variants of this script
