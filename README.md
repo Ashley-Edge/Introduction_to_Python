@@ -53,3 +53,6 @@
   - I made an `alreday_in` def to check that no duplicates will be added to `pokêmon.txt`
   - Lastly I added a `get_name` def, so I could reference a Pokémons name for the output message
   - `HW5_EXPERIMINTATION.py` has all my other variants of this script
+## Week 6: Building your app_Project Planning
+- We have been put intp groups of 3 to work on our final project
+- More info can be found in the `Session_6` folder with it's own `README.md`
