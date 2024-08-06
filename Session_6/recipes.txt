@@ -1,0 +1,40 @@
+Recipe: Fried Sriracha Tofu
+   URL: https://honestcooking.com/fried-sriracha-tofu/
+   Calories: 1019.3921525287499
+   Ingredients: ['Extra Firm Tofu 13 oz pack', 'Oil to pan fry or grill']
+
+Recipe: Strawberry-Tofu Smoothie
+   URL: https://www.marthastewart.com/1154137/strawberry-tofu-smoothie
+   Calories: 291.5178841125
+   Ingredients: ['2 cups frozen strawberries', '3 ounces silken tofu', '1/2 cup apple juice', '1 tablespoon honey']
+
+Recipe: Thunderbolt Tofu
+   URL: https://food52.com/recipes/26534-thunderbolt-tofu
+   Calories: 323.787333333439
+   Ingredients: ['2 pieces tofu (250g)', '1 tablespoon roasted sesame oil, or oil of your choice', '1 tablespoon soy sauce', '2 pinches parsley or green onion']
+
+Recipe: The Crispy Egg
+   URL: http://smittenkitchen.com/blog/2014/10/the-crispy-egg/
+   Calories: 65.202
+   Ingredients: ['1 glug olive oil or cooking fat of your choice', '1 egg, any size', 'Salt, pepper, herbs, spices or hot sauce, or all of the above']
+
+Recipe: Baked Potato Snack
+   URL: https://www.marthastewart.com/353269/baked-potato-snack
+   Calories: 195.35940422222222
+   Ingredients: ['1 medium sweet potato, or baking potato', 'Salt and freshly ground black pepper']
+Recipe: Basic White Rice
+   URL: https://www.seriouseats.com/basic-white-rice-recipe-5189757
+   Calories: 2.0
+   Ingredients: ['1 cup (200g) long-grain rice, such as jasmine or Carolina rice (see note)', '1 cup (240ml) water, plus more for rinsing rice']
+Recipe: Hooters Onion Rings
+   URL: http://www.davidlebovitz.com/2013/04/hooters-onion-rings-recipe/
+   Calories: 1633
+   Ingredients:
+      - 1 cup (140 g) flour, plus more for dusting the onions
+      - or 3/4 cup (110 g) flour, plus 1/4 cup (35 g) cornmeal
+      - 1 cup (250 ml) beer
+      - 1 teaspoon freshly ground black pepper
+      - 1/2 teaspoon red pepper powder (I used ancho chile powder)
+      - 1/2 teaspoon salt
+      - 2 medium onions, peeled and cut in 1/3-inch (1 cm) thick rings
+      - Peanut oil, for frying the onion rings
