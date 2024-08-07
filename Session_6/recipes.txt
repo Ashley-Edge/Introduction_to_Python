@@ -48,3 +48,11 @@ Recipe: Rum Syrup
       - 4 cups sugar
       - 2 cups best-quality dark rum
 ------------------------------------------------------------------------------------------
+Recipe: Cider-Glazed Sausage
+   URL: https://www.marthastewart.com/313789/cider-glazed-sausage
+   Calories: 273
+   Servings: 4
+   Ingredients:
+      - 12 ounces (1 package) frozen breakfast sausage links
+      - 1 cup apple cider
+------------------------------------------------------------------------------------------
