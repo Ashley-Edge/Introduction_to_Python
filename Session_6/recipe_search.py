@@ -16,15 +16,28 @@ def recipe_search(ingredient):
 def read_existing_recipes(filename):
     if not os.path.exists(filename):
         return set()
-
     with open(filename, 'r') as file:
         existing_recipes = {line.split(': ')[1].strip() for line in file if line.startswith('Recipe:')}
-
     return existing_recipes
 
 
 def get_recipes():
-    ingredient = input('Enter an ingredient: ')
+    ingredient = input('Enter one or more ingredients you want to use: ')
+    while ingredient == "":
+        ingredient: input('You must enter at least one or more ingredients. Try again: ')
+        components = ingredient.split()
+        items = ",+".join(components) or "and+".join(components) or " +".join(components)
+        ingredients = "ingredients=" + items
+        include_ingredients = "q={}".format(ingredients)
+
+    calories_ask = ""
+    while calories_ask is not int:
+        try:
+            calories_ask = int(input("Enter the maximum number of calories per person: "))
+            break
+        except ValueError:
+            print("Invalid response.")
+
     limit = int(input('Enter the number of recipes to display: '))
     recipes = recipe_search(ingredient)
     existing_recipes = read_existing_recipes('recipes.txt')
@@ -32,16 +45,13 @@ def get_recipes():
         for num, recipe_data in enumerate(recipes[:limit]):
             recipe = recipe_data['recipe']
             recipe_name = recipe['label']
-            calories = round(recipe['calories'])  # Round and convert to integer
-
-            # Format the ingredients with proper alignment
-            ingredients = "\n".join(f"      - {line}" for line in recipe['ingredientLines'])
-
+            calories = round(recipe['calories'])  # Roundup the number
+            ingredients = "\n".join(f"      - {line}" for line in recipe['ingredientLines'])  # format ingredients in a list
             recipe_check = (
                 f"Recipe: {recipe['label']}\n"
                 f"   URL: {recipe['url']}\n"
                 f"   Calories: {calories}\n"
-                f"   Ingredients:\n{ingredients}\n"  # Properly formatted ingredients
+                f"   Ingredients:\n{ingredients}\n"
             )
             if recipe_name in existing_recipes:
                 print()
