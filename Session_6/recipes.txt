@@ -1,36 +1,19 @@
 
  /)  /)  ~ ┏━━━━━━━━━━━━━━━━━┓
-( •-• ) ~  ♡  Saved Recipes  ♡
+( ^_^ ) ~  ♡  Saved Recipes  ♡
  /づづ    ~ ┗━━━━━━━━━━━━━━━━━┛
- ------------------------------------------------------------------------------------------
-Recipe: Fried Sriracha Tofu
-   URL: https://honestcooking.com/fried-sriracha-tofu/
-   Calories: 255
+-----------------------------------------------------------------------------------------------------------
+
+Recipe: Panko Fried Tofu
+   URL: https://food52.com/recipes/29867-panko-fried-tofu
+   Calories: 241
    Servings: 4
    Ingredients:
-      - Extra Firm Tofu 13 oz pack
-      - Oil to pan fry or grill
-------------------------------------------------------------------------------------------
-Recipe: Strawberry-Tofu Smoothie
-   URL: https://www.marthastewart.com/1154137/strawberry-tofu-smoothie
-   Calories: 292
-   Servings: 1
-   Ingredients:
-      - 2 cups frozen strawberries
-      - 3 ounces silken tofu
-      - 1/2 cup apple juice
-      - 1 tablespoon honey
-------------------------------------------------------------------------------------------
-Recipe: Thunderbolt Tofu
-   URL: https://food52.com/recipes/26534-thunderbolt-tofu
-   Calories: 162
-   Servings: 2
-   Ingredients:
-      - 2 pieces tofu (250g)
-      - 1 tablespoon roasted sesame oil, or oil of your choice
-      - 1 tablespoon soy sauce
-      - 2 pinches parsley or green onion
-------------------------------------------------------------------------------------------
+      - 1 packet Firm Tofu
+      - 1 Egg
+      - 0.5 cups Flour
+      - 1 cup Panko Crumbs
+-----------------------------------------------------------------------------------------------------------
 Recipe: Rum Shrub Recipe
    URL: http://www.seriouseats.com/recipes/2011/06/rum-shrub-cocktail-recipe.html
    Calories: 168
@@ -39,20 +22,28 @@ Recipe: Rum Shrub Recipe
       - 2 ounces dark rum
       - 1/2 ounce shrub syrup
       - 3 ounces club soda or seltzer
-------------------------------------------------------------------------------------------
-Recipe: Rum Syrup
-   URL: https://www.marthastewart.com/864571/rum-syrup
-   Calories: 207
-   Servings: 20
+-----------------------------------------------------------------------------------------------------------
+Recipe: Coffee Cabinets (Rhode Island-Style Coffee Milkshakes) Recipe
+   URL: https://www.seriouseats.com/coffee-cabinets-ice-cream-milkshake-recipe
+   Calories: 734
+   Servings: 2
    Ingredients:
-      - 4 cups sugar
-      - 2 cups best-quality dark rum
-------------------------------------------------------------------------------------------
-Recipe: Cider-Glazed Sausage
-   URL: https://www.marthastewart.com/313789/cider-glazed-sausage
-   Calories: 273
+      - For the Coffee Syrup:
+      - 1 cup strong brewed coffee
+      - 1 cup sugar
+      - 1/4 teaspoon vanilla extract
+      - For the Coffee Cabinet:
+      - 1 pint coffee ice cream
+      - 1/4 cup whole milk
+      - 1/4 cup chilled coffee
+      - 2 tablespoons coffee syrup
+-----------------------------------------------------------------------------------------------------------
+Recipe: Spun Sugar Recipe
+   URL: https://www.seriouseats.com/how-to-make-spun-sugar-recipe
+   Calories: 255
    Servings: 4
    Ingredients:
-      - 12 ounces (1 package) frozen breakfast sausage links
-      - 1 cup apple cider
-------------------------------------------------------------------------------------------
+      - 75 grams water
+      - 50 grams light corn syrup
+      - 8 ounces granulated sugar
+-----------------------------------------------------------------------------------------------------------

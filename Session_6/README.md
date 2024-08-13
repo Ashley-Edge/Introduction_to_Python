@@ -36,3 +36,59 @@ These are the required tasks for this project. We aim to complete these tasks be
     EDAMAM_APP_KEY=your_app_key
   ```
 - `.gitignore` to ensure `.env` is not committed to the repository.
+### Starting up the app
+```
+ /)  /)  ~ ┏━━━━━━━━━━━━━━━━━┓
+( •_• ) ~  ♡   Meal Planner  ♡
+ /づづ    ~ ┗━━━━━━━━━━━━━━━━━┛
+
+What ingredients do you want to use?: tofu
+Maximum calories per serving: 300
+How many recipes do you want to see?: 1
+```
+### New Recipe Added
+```
+ /)  /)  ~ ┏━━━━━━━━━━━━━━━━━━┓
+(˶♡_♡˶)  ~ ♡  * New Recipe! * ♡
+ /づづ    ~ ┗━━━━━━━━━━━━━━━━━━┛
+
+Recipe: Fried Sriracha Tofu
+   URL: https://honestcooking.com/fried-sriracha-tofu/
+   Calories: 255
+   Servings: 4
+   Ingredients:
+      - Extra Firm Tofu 13 oz pack
+      - Oil to pan fry or grill
+-------------------------------------------------------------
+** All New recipes have added to recipes.txt **
+-------------------------------------------------------------
+```
+### Recipe Already Saved
+```
+ /)  /)  ~ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+( •_• )  ~ ♡  You have seen this recipe before ♡
+ /づづ    ~ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+Recipe: Fried Sriracha Tofu
+   URL: https://honestcooking.com/fried-sriracha-tofu/
+   Calories: 255
+   Servings: 4
+   Ingredients:
+      - Extra Firm Tofu 13 oz pack
+      - Oil to pan fry or grill
+--------------------------------------------------------------
+```
+### No Recipes Found for Given Ingredients
+```
+ /)  /)  ~ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+(˶>_<˶) ~   ♡ No recipes found for your ingredients !!!!  ♡
+ /づづ    ~ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+--------------------------------------------------------------
+```
+### No Recipes Found with Calorie Limit
+```
+ /)  /)  ~ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+(˶>_<˶) ~  ♡ No recipes under 100 calories are available !!!! ♡
+ /づづ    ~ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+--------------------------------------------------------------
+```
