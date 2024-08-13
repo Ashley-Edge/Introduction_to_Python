@@ -3,6 +3,29 @@ from dotenv import load_dotenv
 import os
 import time
 
+
+quiz = {"What pasta is shaped like a small bow tie? ": "farfalle"}
+
+
+def food_quiz():
+    print("Food Quiz!")
+    for question, answer in quiz.items():
+        user_answer = input(question + "").strip()
+        if user_answer == answer:
+            print("Correct! You may now use the meal planner")
+            return True
+        else:
+            print(f"That is wrong. The correct answer is {answer}")
+            print()
+            print(" /)  /) ~   ┏━━━━━━━━━━━━━━━━━━━━┓")
+            print("(˶>_<˶)  ~  ♡ No dinner for you  ♡")
+            print(" /づづ   ~   ┗━━━━━━━━━━━━━━━━━━━━┛")
+            print("-----------------------------------------------------------------------------------------------------------")
+            no_recipe_sound.play()  # Play no recipe sound
+            time.sleep(1)
+            return False
+
+
 # Set environment variable to suppress the Pygame support prompt
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 import pygame
@@ -19,8 +42,9 @@ no_recipe_sound = pygame.mixer.Sound('no_recipe.wav')
 
 print()
 print(" /)  /)  ~ ┏━━━━━━━━━━━━━━━━━┓")
-print("( •_• ) ~  ♡   Meal Planner  ♡")
+print("( ^_^ ) ~  ♡   Bunny Bytes   ♡")
 print(" /づづ    ~ ┗━━━━━━━━━━━━━━━━━┛")
+print()
 # Play sound at the start of the script
 start_sound.play()
 load_dotenv()
@@ -49,7 +73,7 @@ def format_recipe(recipe_name, recipe_url, calories_per_serving, servings, ingre
         f"   Calories: {calories_per_serving}\n"
         f"   Servings: {servings}\n"
         f"   Ingredients:\n{ingredients}\n"
-        "------------------------------------------------------------------------------------------"  # Separator line
+        "-----------------------------------------------------------------------------------------------------------"  # Separator line
         ""
     )
 
@@ -57,8 +81,12 @@ def format_recipe(recipe_name, recipe_url, calories_per_serving, servings, ingre
 def get_recipes():
     print()
     ingredient = input('What ingredients do you want to use?: ')
-    while not ingredient:
+    while ingredient == "":
         ingredient = input('You must enter at least one or more ingredients. Try again: ')
+        components = ingredient.split()
+        items = ",+".join(components) or "and+".join(components) or " +".join(components)
+        ingredients = "ingredients=" + items
+        includeingredients = "q={}".format(ingredients)
 
     calories_ask = None
     while calories_ask is None:
@@ -81,7 +109,7 @@ def get_recipes():
         print(" /)  /)  ~ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓")
         print(f"(˶>_<˶)  ~  ♡ No recipes found for your ingredients !!!!  ♡")
         print(" /づづ    ~ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛")
-        print("------------------------------------------------------------------------------------------")
+        print("-----------------------------------------------------------------------------------------------------------")
         no_recipe_sound.play()  # Play no recipe sound
         time.sleep(1)
         return
@@ -106,7 +134,7 @@ def get_recipes():
                 if recipe_name in existing_recipes:
                     print()
                     print(" /)  /)  ~ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓")
-                    print(f"( •_• )  ~ ♡  You have seen this recipe before ♡")
+                    print(f"( ^_^ )  ~ ♡  You have seen this recipe before ♡")
                     print(" /づづ    ~ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛")
                     print(formatted_recipe)  # print(recipe_check)
                     duplicate_recipe_sound.play()  # Play duplicate sound
@@ -122,7 +150,7 @@ def get_recipes():
                 time.sleep(1)
                 file.write(formatted_recipe)  # file.write(recipe_check)
                 print(f"** All New recipes have added to recipes.txt **")
-                print("------------------------------------------------------------------------------------------")
+                print("-----------------------------------------------------------------------------------------------------------")
                 existing_recipes.add(recipe_name)
 
     if not found_recipe:
@@ -130,9 +158,12 @@ def get_recipes():
         print(" /)  /)  ~ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓")
         print(f"(˶>_<˶) ~ ♡  No recipes under {calories_ask} calories are available !!!! ♡")
         print(" /づづ    ~ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛")
-        print("------------------------------------------------------------------------------------------")
+        print("-----------------------------------------------------------------------------------------------------------")
         no_recipe_sound.play()  # Play no recipe sound
         time.sleep(1)
 
 
-get_recipes()
+if food_quiz():
+    get_recipes()
+print("♡ Developed by Rachel Dimelow, Francesca Allen and Ashley Edge. Special thanks to the Code For Girls team ♡")
+print("-----------------------------------------------------------------------------------------------------------")
